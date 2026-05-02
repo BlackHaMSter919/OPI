@@ -31,4 +31,8 @@ public class I implements F, A {
     public Object rr() {
         return null;
     }
+
+    public java.lang.Class qq() {
+        return getClass();
+    }
 }
