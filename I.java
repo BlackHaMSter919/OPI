@@ -35,4 +35,8 @@ public class I implements F, A {
     public java.lang.Class qq() {
         return getClass();
     }
+
+    public void bb() {
+        System.out.println(getClass().getName());
+    }
 }
