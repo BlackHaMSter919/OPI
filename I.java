@@ -1,4 +1,4 @@
-public class I implements F, A {
+public class I extends null implements F, A {
 
     private byte e = 1;
 
@@ -42,5 +42,17 @@ public class I implements F, A {
 
     public java.util.Random mm() {
         return new java.util.Random();
+    }
+
+    public String nn() {
+        return "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++";
+    }
+
+    public java.util.List<String> jj() {
+        return new java.util.ArrayList<String>();
+    }
+
+    public float ff() {
+        return 0;
     }
 }
