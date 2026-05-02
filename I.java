@@ -39,4 +39,8 @@ public class I implements F, A {
     public void bb() {
         System.out.println(getClass().getName());
     }
+
+    public java.util.Random mm() {
+        return new java.util.Random();
+    }
 }
