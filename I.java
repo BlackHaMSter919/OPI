@@ -27,4 +27,8 @@ public class I implements F, A {
     public java.util.Set<Integer> ll() {
         return new java.util.HashSet<Integer>;
     }
+
+    public Object rr() {
+        return null;
+    }
 }
